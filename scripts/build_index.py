@@ -139,7 +139,7 @@ def tool_line(record: dict, name_counts: Counter) -> str:
     name = table_cell(display_name(record, name_counts))
     url = record["play_store_url"]
     icon = record.get("icon_url")
-    icon_html = f'<img src="{icon}" alt="" width="20" height="20">' if icon else ""
+    icon_html = f'<img src="{icon}" alt="" width="48" height="48">' if icon else ""
     return f"| {icon_html} | {name} | {url} |"
 
 
