@@ -131,26 +131,46 @@ def display_name(record: dict, name_counts: Counter) -> str:
     return title
 
 
-def table_cell(value: str) -> str:
-    return value.replace("|", "\\|")
+def html_text(value: str) -> str:
+    return value.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
-def tool_line(record: dict, name_counts: Counter) -> str:
-    name = table_cell(display_name(record, name_counts))
-    url = record["play_store_url"]
-    icon = record.get("icon_url")
-    icon_html = f'<img src="{icon}" alt="" width="48" height="48">' if icon else ""
-    return f"| {icon_html} | {name} | {url} |"
-
-
-def tool_lines(records: list[dict]) -> list[str]:
+def tool_table(records: list[dict]) -> str:
     name_counts = Counter(record["play_store_name"] for record in records)
     ordered = sorted(records, key=lambda item: display_name(item, name_counts).casefold())
-    header = [
-        "|  | App Name | URL |",
-        "| --- | --- | --- |",
-    ]
-    return header + [tool_line(record, name_counts) for record in ordered]
+    rows = []
+    for record in ordered:
+        icon = record.get("icon_url")
+        icon_html = (
+            f'<img src="{html_text(icon)}" alt="" width="64" height="64">'
+            if icon
+            else ""
+        )
+        name = html_text(display_name(record, name_counts))
+        url = html_text(record["play_store_url"])
+        rows.append(
+            "<tr>"
+            f'<td width="64">{icon_html}</td>'
+            f"<td>{name}</td>"
+            f'<td><a href="{url}">{url}</a></td>'
+            "</tr>"
+        )
+    return "\n".join(
+        [
+            "<table>",
+            "<thead>",
+            "<tr>",
+            '<th width="64"></th>',
+            '<th align="left">App Name</th>',
+            '<th align="left">URL</th>',
+            "</tr>",
+            "</thead>",
+            "<tbody>",
+            *rows,
+            "</tbody>",
+            "</table>",
+        ]
+    )
 
 
 def render_index(records: list[dict]) -> str:
@@ -161,7 +181,7 @@ def render_index(records: list[dict]) -> str:
         "",
         "## Mobile tools",
         "",
-        *tool_lines(records),
+        tool_table(records),
         "",
     ]
     return "\n".join(lines)
@@ -175,7 +195,7 @@ def render_readme(records: list[dict]) -> str:
         "",
         "## Mobile tools",
         "",
-        *tool_lines(records),
+        tool_table(records),
         "",
         "Test notes stay in [`catalog/tools/`](catalog/tools/). After editing a record, run `python scripts/build_index.py`.",
         "",
