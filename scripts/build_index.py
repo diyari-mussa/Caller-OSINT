@@ -139,16 +139,16 @@ def tool_line(record: dict, name_counts: Counter) -> str:
     name = table_cell(display_name(record, name_counts))
     url = record["play_store_url"]
     icon = record.get("icon_url")
-    icon_html = f'<img src="{icon}" alt="" width="20" height="20"> ' if icon else ""
-    return f"| {icon_html}{name} | {url} |"
+    icon_html = f'<img src="{icon}" alt="" width="20" height="20">' if icon else ""
+    return f"| {icon_html} | {name} | {url} |"
 
 
 def tool_lines(records: list[dict]) -> list[str]:
     name_counts = Counter(record["play_store_name"] for record in records)
     ordered = sorted(records, key=lambda item: display_name(item, name_counts).casefold())
     header = [
-        "| App Name | URL |",
-        "| --- | --- |",
+        "|  | App Name | URL |",
+        "| --- | --- | --- |",
     ]
     return header + [tool_line(record, name_counts) for record in ordered]
 
