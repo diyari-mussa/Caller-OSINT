@@ -1,0 +1,37 @@
+package_id: "virtual.safe.guard.com"
+play_store_name: "VSG - Reverse Phone Lookup"
+installed_name: "Virtual Safe Guard"
+play_store_url: "https://play.google.com/store/apps/details?id=virtual.safe.guard.com"
+developer_name: "Online Tools Store"
+icon_url: "https://play-lh.googleusercontent.com/P-cOxKChIA0uC7b61tV3QfNl8eg0l5hmwHcLLN1prsLNrIIVdey9kRZ3fxD2DoTPvxukHJU_axzHaLuWNAZr6A=s128"
+platforms:
+  - "android"
+store: "google_play"
+also_on: []
+installs_text: "1K+"
+ratings_count: 0
+ads: "unknown"
+price_model: "unknown"
+listing_status: "unknown"
+snapshot_date: "2026-10-11"
+category: "reverse_lookup"
+inputs: []
+outputs: []
+lookup_mode: "manual_search"
+lookup_status: "fake_or_random"
+account_required: "none"
+registration:
+  - "none"
+registration_raw: "Not Required"
+premium_required_for_search: "unknown"
+contacts_upload: "unknown"
+call_recording: "unknown"
+community_feedback:
+  - source: "investigator"
+    observed_at: "2026-10-11"
+    summary: "Searching a keyword returns randomly generated results."
+osint_notes: "Generate random results when keyword is searched!"
+status: "approved"
+source: "manual_spreadsheet"
+similar_to: []
+reviewed_at: "2026-10-11"

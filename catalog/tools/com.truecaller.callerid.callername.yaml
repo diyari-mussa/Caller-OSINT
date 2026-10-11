@@ -1,0 +1,39 @@
+package_id: "com.truecaller.callerid.callername"
+play_store_name: "Show Caller ID & Spam Blocker"
+installed_name: "ShowCaller"
+play_store_url: "https://play.google.com/store/apps/details?id=com.truecaller.callerid.callername"
+developer_name: "Caller ID & Spam Blocker: Call app, Call Recorder"
+icon_url: "https://play-lh.googleusercontent.com/GGdw0BxvE9AJtLhaun8V5Xz0vxkz-aSO5fH4FgpchhHUBTO3TqVK3USHv31sIl35Sux--yJ4JOK7M318qKPMxeY=s128"
+platforms:
+  - "android"
+store: "google_play"
+also_on: []
+installs_text: "10M+"
+rating: 4.0
+ratings_count: 52400
+ads: "present"
+price_model: "unknown"
+listing_status: "unknown"
+snapshot_date: "2026-10-11"
+category: "hybrid"
+inputs:
+  - "phone_number"
+outputs: []
+lookup_mode: "manual_search"
+lookup_status: "works"
+account_required: "none"
+registration:
+  - "none"
+registration_raw: "Not Required (Alot of adds)"
+premium_required_for_search: "unknown"
+contacts_upload: "unknown"
+call_recording: "unknown"
+community_feedback:
+  - source: "investigator"
+    observed_at: "2026-10-11"
+    summary: "Tester reports a lot of ads. Signup is not required."
+osint_notes: "Phone number search"
+status: "approved"
+source: "manual_spreadsheet"
+similar_to: []
+reviewed_at: "2026-10-11"

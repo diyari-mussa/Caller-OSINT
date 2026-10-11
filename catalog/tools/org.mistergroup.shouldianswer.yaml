@@ -1,0 +1,45 @@
+package_id: "org.mistergroup.shouldianswer"
+play_store_name: "Should I Answer?"
+installed_name: "Should I Answer"
+play_store_url: "https://play.google.com/store/apps/details?id=org.mistergroup.shouldianswer"
+developer_name: "Mister Group s.r.o."
+official_website: "https://www.shouldianswer.com/"
+icon_url: "https://play-lh.googleusercontent.com/pEX8SUsloe17enYQw77ePz0TxB03zdcvcWwN7nMg--CGnwssC1g_UxnMzP1H0xBaa-u4il8ad1z0bPBTtN71VA=s128"
+platforms:
+  - "android"
+store: "google_play"
+also_on:
+  - platform: "web"
+    url: "https://www.shouldianswer.co.uk/"
+installs_text: "1M+"
+rating: 4.4
+ratings_count: 430
+ads: "unknown"
+price_model: "unknown"
+listing_status: "unknown"
+snapshot_date: "2026-10-11"
+category: "spam_reputation"
+inputs:
+  - "phone_number"
+outputs:
+  - "community_reports"
+lookup_mode: "manual_search"
+lookup_status: "no_reverse_lookup"
+coverage_notes: "Online database search accepts UK numbers only and returns reviews and suspicious-activity reports on shouldianswer.co.uk."
+account_required: "none"
+registration:
+  - "none"
+registration_raw: "Not Required"
+premium_required_for_search: "unknown"
+contacts_upload: "unknown"
+call_recording: "unknown"
+community_feedback:
+  - source: "investigator"
+    observed_at: "2026-10-11"
+    summary: "In-app reverse lookup is not provided. The online database accepts UK numbers and shows reviews and suspicious-activity reports."
+osint_notes: "No service provided for reverse phone lookup. Besides when you search for a mobile number in (search in online database) it only take numbers from UK and it searched in shouldianswer.co.uk website for reviews and suspicious activities on the searched mobile number."
+outputs_confidence: "tested"
+status: "approved"
+source: "manual_spreadsheet"
+similar_to: []
+reviewed_at: "2026-10-11"

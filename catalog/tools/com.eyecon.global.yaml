@@ -1,0 +1,40 @@
+package_id: "com.eyecon.global"
+play_store_name: "Eyecon Caller ID & Spam Block"
+installed_name: "Eyecon"
+play_store_url: "https://play.google.com/store/apps/details?id=com.eyecon.global"
+developer_name: "Eyecon Global Company"
+developer_notes: "Founders Yuval and Erez"
+official_website: "https://www.eyecon-app.com/"
+icon_url: "https://play-lh.googleusercontent.com/Ygb2Qn4l6WTUOK8nrRt_i4X6TmlFDJgrZmQKgTYw15yfIriBtKGw0qsIr9Rz8cBxJQ_y4hQJtHc7i21R8mpKk7g=s128"
+platforms:
+  - "android"
+store: "google_play"
+also_on: []
+installs_text: "50M+"
+rating: 4.5
+ratings_count: 955000
+ads: "unknown"
+price_model: "unknown"
+listing_status: "unknown"
+snapshot_date: "2026-10-11"
+category: "hybrid"
+inputs:
+  - "phone_number"
+outputs: []
+lookup_mode: "manual_search"
+lookup_status: "works"
+account_required: "required"
+registration:
+  - "email"
+  - "phone_unverified"
+  - "username"
+registration_raw: "Email or phone number, and username"
+premium_required_for_search: "unknown"
+contacts_upload: "unknown"
+call_recording: "unknown"
+community_feedback: []
+osint_notes: "Phone number search"
+status: "approved"
+source: "manual_spreadsheet"
+similar_to: []
+reviewed_at: "2026-10-11"

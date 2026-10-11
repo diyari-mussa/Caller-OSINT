@@ -1,0 +1,37 @@
+package_id: "com.callerid.truefinder.spamblocker"
+play_store_name: "Show Caller ID Name & Call App"
+installed_name: "Caller ID"
+play_store_url: "https://play.google.com/store/apps/details?id=com.callerid.truefinder.spamblocker"
+developer_name: "Phonecaller: Caller ID & Block Spam"
+icon_url: "https://play-lh.googleusercontent.com/EWGL_VZ9pACkQKrlx6A-9Ywpy-s5IqWAzqxLU5A9kT6nrr-jdiw79GQxy29Df1lxoRX9gpsGdAu9xraJxSh8iSw=s128"
+platforms:
+  - "android"
+store: "google_play"
+also_on: []
+installs_text: "1M+"
+rating: 3.7
+ratings_count: 5770
+ads: "unknown"
+price_model: "unknown"
+listing_status: "unknown"
+snapshot_date: "2026-10-11"
+category: "caller_id"
+inputs:
+  - "phone_number"
+outputs: []
+lookup_mode: "manual_search"
+lookup_status: "works"
+account_required: "required"
+registration:
+  - "email"
+  - "phone_unverified"
+registration_raw: "Email and phone number"
+premium_required_for_search: "unknown"
+contacts_upload: "unknown"
+call_recording: "unknown"
+community_feedback: []
+osint_notes: "Phone number search"
+status: "approved"
+source: "manual_spreadsheet"
+similar_to: []
+reviewed_at: "2026-10-11"

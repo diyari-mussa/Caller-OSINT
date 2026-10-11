@@ -1,0 +1,41 @@
+package_id: "com.cascadialabs.who"
+play_store_name: "Who - Caller ID, Spam Block"
+installed_name: "WHO"
+play_store_url: "https://play.google.com/store/apps/details?id=com.cascadialabs.who"
+developer_name: "RD Labs LLC"
+icon_url: "https://play-lh.googleusercontent.com/W1GWOqinyJHy6RozRmSfUA5lqqV50wHqDxZlorwqedJ26L1sMM4utsXuijJWdc5QkEsq7k0N49kv0vmQfQEkniU=s128"
+platforms:
+  - "android"
+store: "google_play"
+also_on: []
+installs_text: "1M+"
+rating: 4.0
+ratings_count: 14700
+ads: "unknown"
+price_model: "unknown"
+listing_status: "unknown"
+snapshot_date: "2026-10-11"
+category: "hybrid"
+inputs:
+  - "phone_number"
+  - "person_name"
+  - "username"
+outputs: []
+lookup_mode: "manual_search"
+lookup_status: "works"
+account_required: "required"
+registration:
+  - "phone_unverified"
+registration_raw: "Phone number"
+premium_required_for_search: "unknown"
+contacts_upload: "unknown"
+call_recording: "unknown"
+community_feedback:
+  - source: "investigator"
+    observed_at: "2026-10-11"
+    summary: "Searching a name returns people's mobile numbers and other info."
+osint_notes: "Phone number search. Username search is available! you search for a name it will get peoples mobile number and other info"
+status: "approved"
+source: "manual_spreadsheet"
+similar_to: []
+reviewed_at: "2026-10-11"

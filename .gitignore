@@ -1,0 +1,5 @@
+# Local testing notes used while the first records were written.
+*.xlsx
+
+__pycache__/
+*.pyc

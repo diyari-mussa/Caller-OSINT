@@ -1,0 +1,37 @@
+package_id: "phonenumbertracker.thropical.tool"
+play_store_name: "Phone Number Lookup"
+installed_name: "Phone Number Tracker"
+play_store_url: "https://play.google.com/store/apps/details?id=phonenumbertracker.thropical.tool"
+developer_name: "Thropical Tools"
+icon_url: "https://play-lh.googleusercontent.com/nv5A5amZRxkLGoMic8ZAw4iiZuUzUWzlbKo_XjnLR4qt6Tk7ij2aYNwu-TS01KJb9sEuA682zfhZISOyXu6vHw=s128"
+platforms:
+  - "android"
+store: "google_play"
+also_on: []
+installs_text: "1K+"
+ratings_count: 0
+ads: "intrusive"
+price_model: "unknown"
+listing_status: "unknown"
+snapshot_date: "2026-10-11"
+category: "reverse_lookup"
+inputs: []
+outputs: []
+lookup_mode: "none"
+lookup_status: "broken"
+account_required: "none"
+registration:
+  - "none"
+registration_raw: "Not Required"
+premium_required_for_search: "unknown"
+contacts_upload: "unknown"
+call_recording: "unknown"
+community_feedback:
+  - source: "investigator"
+    observed_at: "2026-10-11"
+    summary: "Ads make the app unusable, and search cannot be completed."
+osint_notes: "Very bad user experince! cannot survive adds! and you cannot search for anything at all."
+status: "approved"
+source: "manual_spreadsheet"
+similar_to: []
+reviewed_at: "2026-10-11"

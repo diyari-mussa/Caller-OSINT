@@ -1,0 +1,34 @@
+package_id: "com.clever.co.apps.developers.reverse_phone_Lookup"
+play_store_name: "Reverse Phone Lookup"
+installed_name: "Reverse phone lookup"
+play_store_url: "https://play.google.com/store/apps/details?id=com.clever.co.apps.developers.reverse_phone_Lookup"
+developer_name: "Clever Co Apps Developers"
+platforms:
+  - "android"
+store: "google_play"
+also_on: []
+installs_text: "5K+"
+ratings_count: 0
+ads: "unknown"
+price_model: "unknown"
+listing_status: "unknown"
+snapshot_date: "2026-10-11"
+category: "reverse_lookup"
+inputs: []
+outputs: []
+lookup_mode: "unknown"
+lookup_status: "broken"
+account_required: "unknown"
+registration: []
+premium_required_for_search: "unknown"
+contacts_upload: "unknown"
+call_recording: "unknown"
+community_feedback:
+  - source: "investigator"
+    observed_at: "2026-10-11"
+    summary: "The app crashed when opened."
+osint_notes: "Crashed when opened!"
+status: "approved"
+source: "manual_spreadsheet"
+similar_to: []
+reviewed_at: "2026-10-11"

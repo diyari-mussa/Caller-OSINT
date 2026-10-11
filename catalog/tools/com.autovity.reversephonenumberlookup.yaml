@@ -1,0 +1,35 @@
+package_id: "com.autovity.reversephonenumberlookup"
+play_store_name: "Reverse Phone Number Lookup"
+installed_name: "Reverse Lookup: Phone Search"
+play_store_url: "https://play.google.com/store/apps/details?id=com.autovity.reversephonenumberlookup"
+developer_name: "Autovity Infotech"
+icon_url: "https://play-lh.googleusercontent.com/zxBQMMN4tVCikRs0d1Zocrnx_1RSJcFuIkcqWl1NqlOGHKmoopgLFHuE7lltkF2cSbnQ0oId3rxAbotXWo5Q=s128"
+platforms:
+  - "android"
+store: "google_play"
+also_on: []
+installs_text: "1K+"
+ratings_count: 0
+ads: "unknown"
+price_model: "unknown"
+listing_status: "unknown"
+snapshot_date: "2026-10-11"
+category: "reverse_lookup"
+inputs:
+  - "phone_number"
+outputs: []
+lookup_mode: "manual_search"
+lookup_status: "works"
+account_required: "none"
+registration:
+  - "none"
+registration_raw: "Not Required"
+premium_required_for_search: "unknown"
+contacts_upload: "unknown"
+call_recording: "unknown"
+community_feedback: []
+osint_notes: "Phone number search"
+status: "approved"
+source: "manual_spreadsheet"
+similar_to: []
+reviewed_at: "2026-10-11"

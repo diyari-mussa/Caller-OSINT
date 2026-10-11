@@ -1,0 +1,36 @@
+package_id: "com.whos.teamdevcallingme"
+play_store_name: "Who's Calling Me - Caller ID"
+installed_name: "Whos Calling Me"
+play_store_url: "https://play.google.com/store/apps/details?id=com.whos.teamdevcallingme"
+developer_name: "DevAppTeam"
+icon_url: "https://play-lh.googleusercontent.com/oxYp993dvbA3yi0eTCXoIkLL9d1ecSBzt3F65LAzPzCfhyvKMh4F4mNg_zFL0BEjl0mrHbU0lhVEyl3Z_n8Y=s128"
+platforms:
+  - "android"
+store: "google_play"
+also_on: []
+installs_text: "5M+"
+rating: 4.3
+ratings_count: 42700
+ads: "unknown"
+price_model: "unknown"
+listing_status: "unknown"
+snapshot_date: "2026-10-11"
+category: "caller_id"
+inputs:
+  - "phone_number"
+outputs: []
+lookup_mode: "manual_search"
+lookup_status: "works"
+account_required: "none"
+registration:
+  - "none"
+registration_raw: "Not Required"
+premium_required_for_search: "unknown"
+contacts_upload: "unknown"
+call_recording: "unknown"
+community_feedback: []
+osint_notes: "Phone number search"
+status: "approved"
+source: "manual_spreadsheet"
+similar_to: []
+reviewed_at: "2026-10-11"
